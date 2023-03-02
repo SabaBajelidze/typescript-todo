@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="../dest/main.js" defer></script>
+    <title>Typescript-DOM manipulation Project</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Typescript Registration Page</h1>
+      <p>Here you can log in, sign up and log out from your account</p>
+      <button id="start-over">Clear data</button>
+    </header>
+    <main id="main">
+      <div id="container">
+        <div id="login">
+          <h2>Log In - Sign Up</h2>
+          <form id="form-login">
+            <label
+              >Enter Your Name: <input type="text" id="person-name" required
+            /></label>
+            <label
+              >Enter Your Code Word:
+              <input type="text" id="person-code" required
+            /></label>
+            <button type="submit" id="log-in-button">Log In</button>
+            <p>Don't Have An Account? <span id="sign-up">Sign Up!</span></p>
+          </form>
+        </div>
+        <div id="menu">
+          <h2>Log In To Access Menu</h2>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

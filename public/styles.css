@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  background-color: rgb(75, 199, 158);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header p {
+  font-size: 1.2rem;
+}
+
+#container {
+  display: flex;
+}
+
+#login {
+  height: 25rem;
+  width: 25rem;
+  background-color: rgb(168, 215, 72);
+  border-radius: 0.5rem;
+  margin: 5px;
+  color: white;
+  text-align: center;
+}
+
+#menu {
+  width: 50rem;
+  height: 25rem;
+  background-color: #a358e8;
+  border-radius: 0.5rem;
+  margin: 5px;
+  color: white;
+  padding: 5px;
+}
+
+#menu h2 {
+  text-align: center;
+}
+
+#login h2 {
+  margin-bottom: 50px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+#log-in-button {
+  margin: 10px 0;
+}
+
+#sign-up:hover {
+  cursor: pointer;
+  color: rgb(75, 199, 158);
+}
+
+#person {
+  margin-left: 145px;
+  margin-top: -60px;
+  width: 200px;
+}
+
+#face {
+  width: 110px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: RGB(255, 219, 172);
+}
+
+.eyes {
+  width: 25px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: 30px;
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  left: 65px;
+  top: 45px;
+}
+
+#hat-bottom {
+  width: 130px;
+  height: 50px;
+  background-color: darkgreen;
+  border-radius: 50%;
+  position: relative;
+  left: -10px;
+  top: 38px;
+}
+
+.eyeball {
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: relative;
+  top: 2.5px;
+  left: 7.5px;
+}
+
+.nose {
+  width: 25px;
+  height: 12.5px;
+  border: 2px solid RGB(120, 102, 79);
+  border-radius: 0 0 40% 40%;
+  border-top: none;
+  position: relative;
+  top: 45px;
+  left: 42px;
+}
+
+.mouth {
+  width: 45px;
+  height: 12px;
+  background: white;
+  border-radius: 20% 20% 100% 100%;
+  border: 4px solid RGB(120, 102, 79);
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-width: 2px;
+  position: relative;
+  top: 65px;
+  left: 32.5px;
+}
